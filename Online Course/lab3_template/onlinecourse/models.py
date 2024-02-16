@@ -49,7 +49,7 @@ class Learner(models.Model):
 
     def __str__(self):
         return self.user.username + "," + \
-               self.occupation
+                self.occupation
 
 
 # Course model
@@ -65,7 +65,7 @@ class Course(models.Model):
 
     def __str__(self):
         return "Name: " + self.name + "," + \
-               "Description: " + self.description
+                "Description: " + self.description
 
 
 # Lesson model
